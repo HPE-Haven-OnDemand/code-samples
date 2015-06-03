@@ -2,7 +2,7 @@
 
 ##Call
 ```
-curl -X POST --form "apikey=1bc18f2e-93bd-48c7-901a-c935001a8b14" --form "file=@/Users/tylernappy/Downloads/SampleVideo_1080x720_1mb.mp4" https://api.idolondemand.com/1/api/async/recognizespeech/v1
+curl -X POST --form "apikey=<API_KEY>" --form "file=@/Users/tylernappy/Downloads/SampleVideo_1080x720_1mb.mp4" https://api.idolondemand.com/1/api/async/recognizespeech/v1
 ```
 ##Return
 ```
@@ -15,7 +15,7 @@ curl -X POST --form "apikey=1bc18f2e-93bd-48c7-901a-c935001a8b14" --form "file=@
 ##Check status of async
 ##Call
 ```
-curl  https://api.idolondemand.om/1/job/status/<jobID>?apikey=1bc18f2e-93bd-48c7-901a-c935001a8b14
+curl  https://api.idolondemand.om/1/job/status/<jobID>?apikey=<API_KEY>
 ```
 
 ##Return
